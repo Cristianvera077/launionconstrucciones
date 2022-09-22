@@ -21,6 +21,12 @@ justify-content: space-between;
 padding: 10px;
 align-items: center
 }
+@media screen (min-width:320px) {
+    body {
+     background-color: #000000; 
+    }
+ }
+
     
 
 .logo{display: flex;
@@ -45,6 +51,12 @@ nav {padding: 10px 0px;
     
 }
 }
+@media screen (min-width:320px) {
+    body {
+     background-color: #000000; 
+    }
+ }
+
 .slider{width: 100%;
     height: 50%;
     margin:0;
@@ -64,6 +76,12 @@ padding: 0;
     height: 600px;
  ;
 }
+@media screen (min-width:320px) {
+    body {
+     background-color: #000000; 
+    }
+ }
+
 @keyframes cambio{
     0%{margin-left: 0;}
     20%{margin-left: 0;}
@@ -89,20 +107,34 @@ footer{
     }
    .bajo a:hover{color: chocolate;
     }
+    @media screen (min-width:320px) {
+        body {
+         background-color: #000000; 
+        }
+     }
+
 .form{margin: 0;}
 
 .quienessomos{ text-align: center;
     
 
 }
-.grid { display: grid;
+.grid {
+display: grid;
 
     grid-template-columns: repeat(3,1fr);
     grid-auto-rows: 400px ;
     padding: 20px;
     grid-gap: 15px;
+
     
 }
+@media screen (min-width:320px) {
+    body {
+     background-color: #000000; 
+    }
+ }
+
 .img__item{
     width: 100%; 
     height:100%;
